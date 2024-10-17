@@ -30,7 +30,7 @@ a_win_num = 0
 b_win_num = 0
 tie_num = 0
 
-for u_id in range(1):
+for u_id in range(1000):
     start = time.time()
     print("user: ", u_id)
     user_list = test_data.query('user_id == @u_id')
